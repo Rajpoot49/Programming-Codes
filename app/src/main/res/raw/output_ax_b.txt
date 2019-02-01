@@ -1,0 +1,11 @@
+﻿calculation of ax + b = 0
+enter a (-32768..32767)!
+4
+enter b (-32768..32767)!
+12
+
+data:
+a = 4
+b = 12
+result:
+x = -3

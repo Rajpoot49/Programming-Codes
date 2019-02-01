@@ -1,0 +1,29 @@
+﻿Program to Convert Octal to Decimal
+
+import java.util.Scanner;
+
+public class OctalDecimal {
+
+    public static void main(String[] args) {
+	Scanner reader = new Scanner(System.in);
+        System.out.print("Enter an octal number: ");
+
+        long octal = reader.nextLong();
+        int decimal = convertOctalToDecimal(octal);
+        System.out.printf("%d in octal = %d in decimal", octal, decimal);
+    }
+
+    public static int convertOctalToDecimal(long octal)
+    {
+        int decimalNumber = 0, i = 0;
+
+        while(octal != 0)
+        {
+            decimalNumber += (octal % 10) * Math.pow(8, i);
+            ++i;
+            octal/=10;
+        }
+
+        return decimalNumber;
+    }
+}

@@ -1,0 +1,7 @@
+﻿Enter total number of elements(1 to 100): 4
+
+Enter Number1: 12
+Enter Number2: 45
+Enter Number3: 36.3
+Enter Number4: 89.1
+Largest elements = 89.1

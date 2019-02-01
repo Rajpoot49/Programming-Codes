@@ -1,0 +1,8 @@
+﻿Enter information:
+Enter name: Jack
+Enter roll number: 23
+Enter marks: 34.5
+Displaying Information:
+Name: Jack
+Roll number: 23
+Marks: 34.5

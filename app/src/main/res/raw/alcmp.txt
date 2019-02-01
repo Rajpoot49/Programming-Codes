@@ -1,0 +1,64 @@
+﻿Compare two Strings
+
+.MODEL SMALL
+.STACK 100H
+
+DIS MACRO STR
+        MOV AH,09H
+        LEA DX,STR
+        INT 21H
+ENDM
+DATA SEGMENT
+MSG1 DB "ENTER YOUR STRING HERE : $"
+MSG2 DB "STRING ARE EQUAL$"
+MSG3 DB "STRING ARE NOT EQUAL$"
+LINE DW 10,13,'$'
+STR1 DW 20 DUP('$')
+STR2 DW 20 DUP('$')
+DATA ENDS
+CODE SEGMENT
+         COMPARE PROC NEAR
+         ASSUME CS:CODE
+         MOV CX,0000
+         MOV CL,BYTE PTR[SI]
+         INC SI
+         MOV BL,00
+      L1:MOV AH,BYTE PTR[SI]
+         CMP BYTE PTR[DI],AH
+         JNE L2
+         INC BL
+      L2:INC SI
+         INC DI
+         LOOP L1
+         RET
+         COMPARE ENDP
+         ASSUME DS:DATA,CS:CODE
+START:
+         MOV AX,DATA
+         MOV DS,AX
+         DIS MSG1
+         MOV AH,0AH
+         LEA DX,STR1
+         INT 21H
+         DIS LINE
+
+         DIS MSG1
+         MOV AH,0AH
+         LEA DX,STR2
+         INT 21H
+
+         LEA SI,STR1+1
+         LEA DI,STR2+2
+         CALL COMPARE
+
+         DIS LINE
+         LEA SI,STR1+1
+         CMP BL,BYTE PTR[SI]
+         JNE L4
+         DIS MSG2
+         JMP L5
+      L4:DIS MSG3
+      L5:MOV AH,4CH
+         INT 21H
+CODE ENDS
+END START

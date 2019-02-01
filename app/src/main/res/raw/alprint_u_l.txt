@@ -1,0 +1,40 @@
+﻿Program to print a to z in upper and lower case
+
+.MODEL SMALL
+.stack 100H
+
+.data
+
+.code
+assume cs:code, ds:data, ss:stack
+main proc
+  mov ah,02h   
+  mov cx,26    
+  mov dl,41h   
+
+lop:
+  int 21h
+  add dl,1h    
+  loop lop
+
+  mov dl,0ah
+  mov ah,02h   
+  int 21h
+
+  mov dl,0dh
+  mov ah,02h   
+  int 21h
+
+  mov ah,02h   
+  mov cx,26    
+  mov dl,61h   
+
+lop1:
+  int 21h
+  add dl,1h    
+  loop lop1
+
+  mov ah,4ch
+  int 21h
+main endp
+end main

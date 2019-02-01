@@ -1,0 +1,332 @@
+<resources>
+    <string name="Interstitial_ID">ca-app-pub-5168950479570531/3662771742</string>
+    <string name="Banner_ID">ca-app-pub-5168950479570531/7083142001</string>
+    <string name="app_name">Programing Codes</string>
+    <string name="hello">Hello World!</string>
+    <string name="textView">Output:</string>
+    <string name="factorial">Enter an integer: 10</string>
+    <string name="factorial2">Factorial of 10 = 3628800</string>
+    <string name="print_number1">Enter a integer: 25</string>
+    <string name="print_number2">You entered: 25</string>
+    <string name="palindrom1">Enter an integer: 1001</string>
+    <string name="palindrom2">1001 is a palindrome.</string>
+    <string name="add_number1">Enter two integers: 12</string>
+    <string name="add_number2">12 + 11 = 23</string>
+    <string name="add_number3">11</string>
+    <string name="mul_float3">Product = 8.0002</string>
+    <string name="mul_float2">2.21</string>
+    <string name="mul_float1">Enter two numbers: 3.62</string>
+    <string name="prime_number1">Enter a positive integer: 5</string>
+    <string name="prime_number2">5 is a prime number</string>
+    <string name="swap_number4">After swapping, secondNumber = 3.20</string>
+    <string name="swap_number3">After swapping, firstNumber = 4.05</string>
+    <string name="swap_number2">Enter second number: 4.05</string>
+    <string name="swap_number1">Enter first number: 3.20</string>
+    <string name="power_number3">Answer = 8</string>
+    <string name="power_number2">Enter an  exponent: 3</string>
+    <string name="power_number1">Enter a base number: 2</string>
+    <string name="prime_numbers3">Prime numbers between 10 and 20 are: 11 13 17 19</string>
+    <string name="prime_numbers2">20</string>
+    <string name="prime_numbers1">Enter two numbers(intervals): 10</string>
+    <string name="even_odd1">Enter an integer: 5</string>
+    <string name="even_odd2">5 is odd.</string>
+    <string name="negative_positive1">Enter a number: -5</string>
+    <string name="negative_positive2">You entered a negative number.</string>
+    <string name="leap_year2">2016 is a leap year.</string>
+    <string name="leap_year1">Enter a year: 2016</string>
+    <string name="splash">Develpoed By MKB</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="count_num2">Number of digits: 3</string>
+    <string name="count_num1">Enter an integer: 125</string>
+    <string name="large_num1">Enter three different numbers: 12</string>
+    <string name="large_num2">25.05</string>
+    <string name="large_numb3">25.06</string>
+    <string name="large_num4">25.06 is the largest number.</string>
+    <string name="rev_int2">Reversed Number: 21</string>
+    <string name="rev_int1">Enter an integer: 12</string>
+    <string name="string3">After concatenation: HelloWorld!</string>
+    <string name="string2">Enter second string: World!</string>
+    <string name="string1">Enter first string: Hello</string>
+    <string name="chk_alpha1">Enter an character: D</string>
+    <string name="chk_alpha2">D is an alphabet.</string>
+    <string name="ascii_value2">ASCII value of A = 65</string>
+    <string name="ascii_value1">Enter a character: A</string>
+    <string name="cal_num1">Enter an operator(+,-,*,/): *</string>
+    <string name="cal_num2">Enter two operand: 2</string>
+    <string name="cal_num3">1.5</string>
+    <string name="cal_num4">2.0 * 1.5 = 3.0</string>
+    <string name="frq_char3">Frequency of l = 3</string>
+    <string name="frq_char2">Enter a character from above string to find the frequency: l</string>
+    <string name="sum_nat2">Sum = 15</string>
+    <string name="size_var1">Size of int: 4 bytes</string>
+    <string name="size_var2">Size of float: 4 bytes</string>
+    <string name="size_var3">Size of double: 8 bytes</string>
+    <string name="size_var4">Size of char: 1 byte</string>
+    <string name="vowl_const2">c is a consonant.</string>
+    <string name="vowl_const1">Enter an alphabet: c</string>
+    <string name="binary_to_octal1">Enter a binary number: 0110</string>
+    <string name="bianry_to_octal2">110 in binary = 6 in octal</string>
+    <string name="binary_to_decimal2">101110 in binary = 46 in decimal</string>
+    <string name="binary_to_decimal1">Enter a binary number: 0101110</string>
+    <string name="decimal_to_octal1">Enter a decimal number: 459</string>
+    <string name="decimal_to_octal2">459 in decimal = 713 in octal</string>
+    <string name="octal_to_binary2">456 in octal = 100101110 in binary</string>
+    <string name="octal_to_binary1">Enter an octal number: 456</string>
+    <string name="octal_to_decimal1">456 in octal = 302 in decimal</string>
+    <string name="cpalindrom2">The reverse of the number is: 1001</string>
+    <string name="cpalindrom3">The number is a palindrome</string>
+    <string name="carmstrong1">Enter a positive  integer: 371</string>
+    <string name="carmstrong2">371 is an Armstrong number.</string>
+    <string name="clcm1">Enter two numbers: 25</string>
+    <string name="clcm2">24</string>
+    <string name="clcm3">LCM = 600</string>
+    <string name="crev_str1">Please enter a string</string>
+    <string name="crev_str2">tnempoleved ppa</string>
+    <string name="crev_str3">app development</string>
+    <string name="cgcd1">HCF = 1</string>
+    <string name="jadd_num1">The sum is: 30</string>
+    <string name="jmul_num1">The product is: 3.0</string>
+    <string name="jfactorial">Factorial of 10 = 3628800</string>
+    <string name="jprime_number1">29 is a prime number.</string>
+    <string name="jfibonacci">First 10 terms: 0 1 1 2 3 5 8 13 21 34</string>
+    <string name="jpalindrom1">121 is a palindrome.</string>
+    <string name="jpower_number1">Answer = 81</string>
+    <string name="jsum_nat_num1">Sum = 5050</string>
+    <string name="jlcm1">The LCM of 72 and 120 is 360.</string>
+    <string name="jgcd1">G.C.D of 81 and 153 is 9</string>
+    <string name="jascii_value1">The ASCII value of A is: 65</string>
+    <string name="javerage_array1">The average is: 27.69</string>
+    <string name="jlarge_num1">3.9 is the largest number.</string>
+    <string name="jlarge_array_num1">Largest element = 55.50</string>
+    <string name="jrev_int1">Reversed Number: 4321</string>
+    <string name="jfrequency1">Frequency of e = 2</string>
+    <string name="kashif">Kashif Ali Bhatti</string>
+    <string name="android">Android Developer</string>
+    <string name="alread_char1">A</string>
+    <string name="alcount_0_91">The counting from 0 to 9 is: 0123456789</string>
+    <string name="alreverse1">hello</string>
+    <string name="alreverse2">olleh</string>
+    <string name="alpalindrome1">hello world dlrow olleh</string>
+    <string name="alpalindrome2">this is palindrome!</string>
+    <string name="allower_upper1">ENTER ANY STRING :- assembly language</string>
+    <string name="allower_upper2">CONVERTED STRING IS : ASSEMBLY LANGUAGE</string>
+    <string name="alupper_lower1">ENTER THE STRING: ASSEMBLY LANGUAGE</string>
+    <string name="alupper_lower2">YOUR STRING IS  :  assembly language</string>
+    <string name="alstring_length1">ENTER YOUR STRING HERE: HELLO</string>
+    <string name="alstring_length2">YOUR STRING IS : HELLO</string>
+    <string name="alstring_length3">LENGTH OF STRING IS(DIRECT): 5</string>
+    <string name="alstring_length4">LENGTH OF STRING IS(COUNT): 5</string>
+    <string name="alcmp_str1">STRINGS ARE EQUAL.</string>
+    <string name="alprint_u_l1">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="alprint_u_l2">abcdefghijklmnopqrstuvwxyz</string>
+    <string name="alfirst_last1">FIRST CHARACTER IS : H</string>
+    <string name="alfirst_last2">LAST CHARACTER IS : O</string>
+    <string name="alcalculator1">enter first number : 12</string>
+    <string name="alcalculator2">enter the operator:   + - * /:*</string>
+    <string name="alcalculator3">enter second number: 4</string>
+    <string name="alcalculator4">result is: 48</string>
+    <string name="alcalculator5">thank you for using the calculator! press any key</string>
+    <string name="alhex_bin1">Enter the hexadecimal number( max 4-digits) : 4c</string>
+    <string name="alhex_bin2">Illegal hex number. Try again: 5CA1</string>
+    <string name="alhex_bin3">The equivalent 16-bit binary number is: 0101110010100001</string>
+    <string name="hassan">Hassan Nawaz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="python">Python</string>
+    <string name="Csharp">C#</string>
+    <string name="assembly_language">Assembly Language</string>
+    <string name="java">Java</string>
+    <string name="cplus">C++</string>
+    <string name="C">C</string>
+    <string name="developer">Developed By MKB</string>
+    <string name="support_us">Support Us</string>
+    <string name="rate_it">Rate It</string>
+    <string name="about">About Developers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first">This is... my first program!</string>
+    <string name="bye">Goodbye World!</string>
+    <string name="csadd_number1">Function to calculate the sum of two numbers :</string>
+    <string name="csadd_number2">--------------------------------------------------</string>
+    <string name="csadd_number3">Enter a number: 25</string>
+    <string name="csadd_number4">Enter another number: 50</string>
+    <string name="csadd_number5">The sum of two numbers is : 75</string>
+    <string name="csmul_float1">Function to calculate the Multiplication of two numbers :</string>
+    <string name="csmul_float2">Enter a number: 5</string>
+    <string name="csmul_float3">Enter another number: 6</string>
+    <string name="csmul_float4">The multiplication of two numbers is: 30</string>
+    <string name="cseven_odd1">Entered Number is an Odd Number</string>
+    <string name="csfactorial">Enter the Number</string>
+    <string name="csfactorial2">10</string>
+    <string name="csfactorial3">Factorial of Given Number is: 3,628,800</string>
+    <string name="csfibonacci1">Enter the Limit: 10</string>
+    <string name="csfibonacci2">0 1 1 2 3 5 8 13 21 34</string>
+    <string name="csarmstrong1">Enter the Number : 371</string>
+    <string name="csarmstrong2">Entered Number is an Armstrong Number</string>
+    <string name="cshcf1">Enter the First Number : 12</string>
+    <string name="cshcf2">Enter the Second Number: 16</string>
+    <string name="csgcd1">Commom Factor is : 4</string>
+    <string name="csint_magnitude1">Enter a Number : 321564</string>
+    <string name="csint_magnitude2">Number : 321564</string>
+    <string name="csint_magnitude3">Magnitude : 6</string>
+    <string name="csdf1">Enter the Number : 27</string>
+    <string name="csdf2">The Factors are :</string>
+    <string name="csdf3">1 3 9 27</string>
+    <string name="csdisplay_num1">Number is Negative</string>
+    <string name="csgd1">Enter the Grade in UpperCase</string>
+    <string name="csgd2">VERY GOOD</string>
+    <string name="cspalindrom1">Enter an integer</string>
+    <string name="cspalindrom2">1001</string>
+    <string name="cspalindrom3">Given number is = 1001</string>
+    <string name="cspalindrom4">Its reverse is = 1001</string>
+    <string name="cspalindrom5">Number is palindrome</string>
+    <string name="csleap_year1">Enter the Year in Four Digits : 2016</string>
+    <string name="csmin_max1">Maximum Element : 30</string>
+    <string name="csmin_max2">Minimum Element : -20</string>
+    <string name="csswap1">Enter the First Number : 23</string>
+    <string name="csswap2">Enter the Second Number : 15</string>
+    <string name="csswap3">After Swapping :</string>
+    <string name="csswap4">First Number : 15</string>
+    <string name="csswap5">Second Number : 23</string>
+    <string name="csprime_number1">Prime Numbers :</string>
+    <string name="csprime_number2">2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97</string>
+    <string name="cscal_accel">Enter the Velocity :</string>
+    <string name="cscal_accel2">15</string>
+    <string name="cscal_accel3">Enter the Time :</string>
+    <string name="cscal_accel4">3</string>
+    <string name="cscal_accel5">Accelration : 5</string>
+    <string name="cssum_n1">Enter the Nth Number : 10</string>
+    <string name="cssum_n2">Sum of N Numbers : 55</string>
+    <string name="csnum_sum2">Sum of Digits of the Number : 7</string>
+    <string name="csgreatest_num3">25 is the Greatest Number</string>
+    <string name="csrandom1">Some Random Numbers that are generated are :</string>
+    <string name="csrandom2">9864931</string>
+    <string name="csrandom3">4864134</string>
+    <string name="cssq_house1">Enter Length of Room in Feet : 20</string>
+    <string name="cssq_house3">Enter width of Room in Feet :10</string>
+    <string name="cssq_house2">Room is 200 square feet</string>
+    <string name="cspytha1">Enter the First Value</string>
+    <string name="cspytha2">4</string>
+    <string name="cspytha3">Enter the Second Value</string>
+    <string name="cspytha4">3</string>
+    <string name="cspytha5">The Other Number is : 5</string>
+    <string name="cssinx1">Enter the Number of Terms :</string>
+    <string name="cssinx2">10</string>
+    <string name="cssinx3">Enter the Angle in Degrees :</string>
+    <string name="cssinx5">Sin(45)=0.85090352</string>
+    <string name="cssinx4">45</string>
+    <string name="cscosx1">The Cosine of 0 = 1</string>
+    <string name="cscosx2">Calculated Cosine of 0 =1</string>
+    <string name="csunbox_op1">Data : 50</string>
+    <string name="csunbox_op2">Data : 0</string>
+    <string name="csbin_dec1">Enter a Binary Number(1s and 0s) : 101010</string>
+    <string name="csbin_dec2">The Binary Number is : 101010</string>
+    <string name="csbin_dec3">Its Decimal Equivalent is : 42</string>
+    <string name="csdec_bin1">Enter the Number : 5</string>
+    <string name="csdec_bin2">Binary Format for the Given Number is : 0101</string>
+    <string name="csdec_oct1">Enter a Decimal Number :</string>
+    <string name="csdec_oct2">50</string>
+    <string name="csdec_oct3">Equivalent Octal Number is : 62</string>
+    <string name="csdec_hex2">45</string>
+    <string name="csdec_hex3">Equivalent HexaDecimal Number is 2D</string>
+    <string name="cshex_dec1">Enter a HexaDecimal Number : ABC</string>
+    <string name="cshex_dec2">The Decimal value is : 2748</string>
+    <string name="cssort1">Edward</string>
+    <string name="cssort2">Fleming</string>
+    <string name="cssort3">Glenn</string>
+    <string name="cssort4">Hayat</string>
+    <string name="cssort5">Murat</string>
+    <string name="cssingle_inher1">Teach</string>
+    <string name="cssingle_inher2">Learn</string>
+    <string name="csmulti_inher1">There are Many Modes of Transport !!</string>
+    <string name="csmulti_inher2">They Mainly Help in Travelling !!</string>
+    <string name="csmulti_inher3">All Vehicles Creates Noise !!</string>
+    <string name="cshierar_inher1">Monitor</string>
+    <string name="padd_num1">Enter first number: 1.5</string>
+    <string name="padd_num2">Enter second number: 6.3</string>
+    <string name="padd_num3">The sum of 1.5 and 6.3 is 7.8</string>
+    <string name="pfactorial1">The factorial of 7 is 5040</string>
+    <string name="pfibonacci1">Fibonacci sequence upto 10 :</string>
+    <string name="pfibonacci2">0, 1, 1, 2, 3, 5, 8, 13, 21, 34</string>
+    <string name="pprime1">407 is not a prime number</string>
+    <string name="pprime2">11 times 37 is 407</string>
+    <string name="parmstrong1">Enter a number: 407</string>
+    <string name="parmstrong2">407 is an Armstrong number</string>
+    <string name="prandom1">5</string>
+    <string name="pascii1">The ASCII value of \'p\' is 112</string>
+    <string name="pleap_year1">2016 is a leap year</string>
+    <string name="pswap_var1">The value of x after swapping: 10</string>
+    <string name="pswap_var2">The value of y after swapping: 5</string>
+    <string name="plarge_num1">The largest number between 10, 14 and 12 is 14.0</string>
+    <string name="ppalindrome_str1">It is palindrome</string>
+    <string name="plcm1">The L.C.M. of 54 and 24 is 216</string>
+    <string name="pgcd1">The H.C.F. of 54 and 24 is 6</string>
+    <string name="pvwl_str1">Enter string:Hello world</string>
+    <string name="pvwl_str2">Number of vowels are:</string>
+    <string name="pvwl_str3">3</string>
+    <string name="pchck_num1">Enter a number: -1</string>
+    <string name="pchck_num2">Negative number</string>
+    <string name="psum_num1">The sum is 136</string>
+    <string name="pdec_bin_oct_hex1">The decimal value of 344 is:</string>
+    <string name="pdec_bin_oct_hex2">101011000 in binary.</string>
+    <string name="pdec_bin_oct_hex3">530 in octal.</string>
+    <string name="pdec_bin_oct_hex4">158 in hexadecimal.</string>
+    <string name="pcosine1">Enter the value of x in degrees:75</string>
+    <string name="pcosine2">Enter the number of terms:15</string>
+    <string name="pcosine3">0.26</string>
+    <string name="psine1">Enter the value of x in degrees:35</string>
+    <string name="psine2">Enter the number of terms:4</string>
+    <string name="psine3">0.57</string>
+    <string name="psq_root1">The square root of 6.000 is 2.449</string>
+    <string name="padd_matrix1">[17, 15, 4]</string>
+    <string name="padd_matrix2">[10, 12, 9]</string>
+    <string name="padd_matrix3">[11, 13, 18]</string>
+    <string name="pcount_upper_lower1">The number of lowercase characters is:</string>
+    <string name="pcount_upper_lower2">7</string>
+    <string name="pcount_upper_lower3">The number of uppercase characters is:</string>
+    <string name="pcount_upper_lower4">4</string>
+    <string name="prem_punc1">Hello he said and went</string>
+    <!-- privacy policy-->
+    <string name="privacy">Privacy Policy</string>
+    <string name="privacy_policy1">Privacy Policy</string>
+    <string name="privacy_policy2">Programming Codes (\"us\", \"we\", or \"our\") operates the website and the Programming Codes mobile application (the \"Service\").  This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for Programming Codes is managed through Free Privacy Policy.  We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</string>
+    <string name="privacy_policy3">Information Collection And Use</string>
+    <string name="privacy_policy4">We collect several different types of information for various purposes to provide and improve our Service to you.</string>
+    <string name="privacy_policy5">Types of Data Collected</string>
+    <string name="privacy_policy6">Personal Data</string>
+    <string name="privacy_policy7">While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (\"Personal Data\"). Personally identifiable information may include, but is not limited to:</string>
+    <string name="privacy_policy8">* Cookies and Usage Data</string>
+    <string name="privacy_policy9">Usage Data</string>
+    <string name="privacy_policy10">We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device (\"Usage Data\").</string>
+    <string name="privacy_policy11">This Usage Data may include information such as your computer\'s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</string>
+    <string name="privacy_policy12">When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.</string>
+    <string name="privacy_policy13"><![CDATA[Tracking & Cookies Data]]></string>
+    <string name="privacy_policy14">We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.  Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</string>
+    <string name="privacy_policy15">You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</string>
+    <string name="privacy_policy16">Examples of Cookies we use:</string>
+    <string name="privacy_policy17">Session Cookies. We use Session Cookies to operate our Service.</string>
+    <string name="privacy_policy18">Preference Cookies. We use Preference Cookies to remember your preferences and various settings.</string>
+    <string name="privacy_policy19">Security Cookies. We use Security Cookies for security purposes.</string>
+    <string name="privacy_policy20">Use of Data</string>
+    <string name="privacy_policy21">Programming Codes uses the collected data for various purposes:</string>
+    <string name="privacy_policy22">To provide and maintain the Service</string>
+    <string name="privacy_policy23">To notify you about changes to our Service</string>
+    <string name="privacy_policy24">To allow you to participate in interactive features of our Service when you choose to do so</string>
+    <string name="privacy_policy125">To provide customer care and support</string>
+    <string name="privacy_policy26">To provide analysis or valuable information so that we can improve the Service</string>
+    <string name="privacy_policy27">To monitor the usage of the Service</string>
+    <string name="privacy_policy28">To detect, prevent and address technical issues</string>
+    <string name="privacy_policy29">Security Of Data</string>
+    <string name="privacy_policy30">The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</string>
+    <string name="privacy_policy31">Analytics</string>
+    <string name="privacy_policy32">We may use third-party Service Providers to monitor and analyze the use of our Service.</string>
+    <string name="privacy_policy33">Google Analytics</string>
+    <string name="privacy_policy34"><![CDATA[Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.  For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: https://policies.google.com/privacy?hl=en]]></string>
+    <string name="privacy_policy35">Children\'s Privacy</string>
+    <string name="privacy_policy36">Our Service does not address anyone under the age of 18 (\"Children\").</string>
+    <string name="privacy_policy37">Changes To This Privacy Policy</string>
+    <string name="privacy_policy38">We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</string>
+    <string name="privacy_policy39">Contact Us</string>
+    <string name="privacy_policy40">If you have any questions about this Privacy Policy, please contact us:  By email: mkb.developers@gmail.com</string>
+</resources>

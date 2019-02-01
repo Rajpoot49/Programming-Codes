@@ -1,0 +1,26 @@
+﻿Program to Calculate Power of a Number
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int exponent;
+    float base, result = 1;
+
+    cout << "Enter a base number: ";
+    cin >> base;
+    
+    cout<<"Enter an exponent: ";
+	cin>>exponent;
+
+    
+    while (exponent != 0) {
+        result *= base;
+        --exponent;
+    }
+
+    cout <<"Answer = "<< result;
+    
+    return 0;
+}

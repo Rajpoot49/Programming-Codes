@@ -1,0 +1,27 @@
+﻿Program to print full pyramid
+
+import java.util.Scanner;
+
+public class Pattern {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number of rows: ");
+
+        int rows = reader.nextInt();
+        int c = 0;
+
+        for(int i = 1; i <= rows; ++i, c = 0) {
+            for(int space = 1; space <= rows - i; ++space) {
+                System.out.print("  ");
+            }
+
+            while(c != 2 * i - 1) {
+                System.out.print("* ");
+                ++c;
+            }
+
+            System.out.println();
+        }
+    }
+}

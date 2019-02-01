@@ -1,0 +1,6 @@
+﻿Enter the numbers of data: 4
+1. Enter number: 12
+2. Enter number: 15
+3. Enter number: 10
+4. Enter number: 17
+Average = 13.5

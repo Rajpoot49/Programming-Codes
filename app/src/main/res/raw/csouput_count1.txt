@@ -1,0 +1,8 @@
+﻿Enter the Limit : 5
+Enter the Numbers : 
+1
+2
+1
+4
+1
+Number of 1's in the Entered Number : 3

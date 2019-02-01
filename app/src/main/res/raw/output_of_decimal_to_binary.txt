@@ -1,0 +1,13 @@
+﻿Enter a decimal number: 456
+
+Step 1: 456/2, Remainder = 0, Quotient = 228
+Step 2: 228/2, Remainder = 0, Quotient = 114
+Step 3: 114/2, Remainder = 0, Quotient = 57
+Step 4: 57/2, Remainder = 1, Quotient = 28
+Step 5: 28/2, Remainder = 0, Quotient = 14
+Step 6: 14/2, Remainder = 0, Quotient = 7
+Step 7: 7/2, Remainder = 1, Quotient = 3
+Step 8: 3/2, Remainder = 1, Quotient = 1
+Step 9: 1/2, Remainder = 1, Quotient = 0
+
+456 in decimal = 111001000 in binary

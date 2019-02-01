@@ -1,0 +1,18 @@
+﻿Program to print Hello World
+
+using System;
+
+public class HelloWorld { 
+	public static void Main() { 
+	
+	// relies on "using System;"	
+	Console.WriteLine("Hello World!"); 
+	 
+	Console.Write("This is"); 
+	Console.Write("... my first program!\n"); 
+	
+	// no "using" statement required
+	System.Console.WriteLine("Goodbye World!"); 
+	
+	} 
+}

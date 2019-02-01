@@ -1,0 +1,43 @@
+﻿Thermometer
+
+.model small
+.stack 100h 
+ 
+#start=thermometer.exe#
+
+
+
+
+#make_bin#
+
+.code
+main proc
+
+; set data segment to code segment:
+mov ax, cs
+mov ds, ax
+
+start:
+
+in al, 125
+
+cmp al, 60
+jl  low
+
+cmp al, 80
+jle  ok
+jg   high
+
+low:
+mov al, 1
+out 127, al   ; turn heater "on".
+jmp ok
+
+high:
+mov al, 0
+out 127, al   ; turn heater "off". 
+
+ok:
+jmp start   ; endless loop.
+   main endp
+end main

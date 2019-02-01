@@ -1,0 +1,65 @@
+﻿Palindrome
+
+.model samll
+.stack 100h
+
+.data
+m1:
+s db 'able was ere ere saw elba'
+s_size = $ - m1
+  db 0Dh,0Ah,'$'
+
+msg1 db "  this is palindrome!$"
+msg2 db "  this is not a palindrome!$"
+
+.code
+main proc
+    mov ax,@data
+    mov ds,ax
+; first let's print it:
+mov ah, 9
+mov dx, offset s
+int 21h
+
+
+lea di, s
+mov si, di
+add si, s_size
+dec si  
+
+mov cx, s_size
+cmp cx, 1
+je is_palindrome  
+
+shr cx, 1     
+
+next_char:
+    mov al, [di]
+    mov bl, [si]
+    cmp al, bl
+    jne not_palindrome
+    inc di
+    dec si
+loop next_char
+
+
+is_palindrome:  
+   ;  the string is "palindrome!"
+   mov ah, 9
+   mov dx, offset msg1
+   int 21h
+jmp stop
+
+not_palindrome:
+   ;  the string is "not palindrome!"
+   mov ah, 9
+   mov dx, offset msg2
+   int 21h
+stop:
+
+
+mov ah, 0
+int 16h
+main endp
+end main
+

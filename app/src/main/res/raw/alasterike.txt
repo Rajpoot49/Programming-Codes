@@ -1,0 +1,31 @@
+﻿Program to display a 10*10 solid box of asterisks with INT 21H
+
+ .MODEL SMALL
+ .STACK 100H
+
+ .DATA
+    SQUARE  DB  '**********',0DH,0AH,'$'
+
+ .CODE
+   MAIN PROC
+     MOV AX, @DATA                
+     MOV DS, AX
+
+     LEA DX, SQUARE               
+     MOV AH, 9                                           
+
+     INT 21H
+     INT 21H                      
+     INT 21H
+     INT 21H
+     INT 21H
+     INT 21H
+     INT 21H
+     INT 21H
+     INT 21H
+     INT 21H
+
+     MOV AH, 4CH                  
+     INT 21H
+   MAIN ENDP
+ END MAIN

@@ -1,0 +1,7 @@
+﻿Enter the Number of Terms in the Array : 4
+Enter the Elements
+1
+2
+3
+4
+Average is 2

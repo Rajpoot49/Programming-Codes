@@ -1,0 +1,31 @@
+﻿Program to convert decimal number to binary
+
+import java.util.Scanner;
+
+public class DecimalBinary {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a decimal number: ");
+
+        long num = reader.nextLong();
+        long binary = convertDecimalToBinary(num);
+        System.out.printf("%d in decimal = %d in binary", num, binary);
+    }
+
+    public static long convertDecimalToBinary(long num)
+    {
+        long binaryNumber = 0;
+        int remainder, i = 1, step = 1;
+
+        while (num!=0)
+        {
+            remainder = (int) (num % 2);
+            System.out.printf("Step %d: %d/2, Remainder = %d, Quotient = %d\n", step++, num, remainder, num/2);
+            num /= 2;
+            binaryNumber += remainder * i;
+            i *= 10;
+        }
+        return binaryNumber;
+    }
+}

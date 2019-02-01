@@ -1,0 +1,8 @@
+Enter the number of elements to be in the list:5
+Element: 12
+Element: 45
+Element: 58
+Element: 23
+Element: 165
+Largest even number: 58
+Largest odd number 165

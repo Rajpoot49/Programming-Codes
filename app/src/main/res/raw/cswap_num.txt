@@ -1,0 +1,22 @@
+﻿Program to Swap Two Numbers
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a = 5, b = 10, temp;
+
+    cout << "Enter first number: ";
+    cin>>a;
+    cout<<"Enter second number: ";
+    cin>>b;
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "\nAfter swapping, firstNumber = "<<b<<"\nAfter swapping, secondNumber = "<<a;
+
+    return 0;
+}

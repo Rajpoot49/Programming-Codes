@@ -1,0 +1,9 @@
+﻿Enter the First Number : 100
+Enter the Second Number : 2
+Main Menu
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+Enter the Operation you want to perform : 3
+The Result of Multiplication is : 200

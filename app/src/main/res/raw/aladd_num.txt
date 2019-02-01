@@ -1,0 +1,30 @@
+﻿ADD 32-bit number
+
+.MODEL SMALL
+.STACK 100H
+
+.DATA
+A DD 30H
+B DD 50H
+RES DD ?
+
+.CODE
+ASSUME  DS:DATA, CS:CODE
+MAIN PROC 
+        ;initialize DS
+        MOV AX,DATA
+        MOV DS,AX
+        
+        ;addition
+        MOV AX,DS:WORD PTR A
+        ADC AX,DS:WORD PTR B
+        MOV BX,DS:WORD PTR A+2
+        ADD BX,DS:WORD PTR [B+2]
+        MOV DS:WORD PTR RES,AX
+        MOV DS:WORD PTR [RES+2],BX
+        
+        ;return to DOS
+        MOV AX,4CH
+        INT 21H
+    MAIN ENDP
+END MAIN

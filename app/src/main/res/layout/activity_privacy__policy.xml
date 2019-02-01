@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rbapps.taleem.Privacy_Policy">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/privacy_policy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="15sp"
+        android:text="@string/privacy_policy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:text="@string/privacy_policy3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:text="@string/privacy_policy4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="@string/privacy_policy5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="@string/privacy_policy6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+        android:text="@string/privacy_policy7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="2dp"
+            android:textSize="15sp"
+        android:text="@string/privacy_policy8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+        android:text="@string/privacy_policy9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+        android:text="@string/privacy_policy10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/privacy_policy18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/privacy_policy19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/privacy_policy20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/privacy_policy22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/privacy_policy23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/privacy_policy24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/privacy_policy125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/privacy_policy26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/privacy_policy27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/privacy_policy28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/privacy_policy29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/privacy_policy31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:text="@string/privacy_policy33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/privacy_policy35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/privacy_policy37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/privacy_policy39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:text="@string/privacy_policy40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

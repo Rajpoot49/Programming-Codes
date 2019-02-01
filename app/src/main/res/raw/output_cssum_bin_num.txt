@@ -1,0 +1,6 @@
+﻿Enter the first binary number:
+100
+Enter the second binary number:
+110
+Sum of two binary numbers:
+1010

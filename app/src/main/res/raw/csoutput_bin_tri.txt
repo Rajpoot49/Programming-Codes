@@ -1,0 +1,6 @@
+﻿Enter the Number of Rows : 5
+1
+01
+010
+1010
+10101
